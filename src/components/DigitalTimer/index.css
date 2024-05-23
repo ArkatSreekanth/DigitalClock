@@ -1,0 +1,121 @@
+.digital-timer-bg-container {
+  background-image: linear-gradient(to bottom, #ffffff, #cffcf1);
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-container {
+  background-position: center;
+  min-width: 270px;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.timer-section {
+  border-radius: 202px;
+  background-color: #ffffff;
+  min-width: 122px;
+  min-height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  color: #00d9f5;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.timer-status {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.cntrl-img {
+  width: 40px;
+}
+
+.cntrl-name {
+  color: #0f172a;
+  font-weight: 900;
+  font-size: 18px;
+  margin-left: 6px;
+}
+
+.control-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 90px;
+}
+
+.controls-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.timer-limit-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.limit-control {
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.timer-limit {
+  background-image: linear-gradient(to right, #0ff4ac, #00d9f5);
+  width: 100px;
+  height: 46px;
+  color: #0f172a;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0px;
+  padding: 8px;
+  border-radius: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.set-timer-limit-heading {
+  text-align: center;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+button {
+  border: 0px;
+  background-color: transparent;
+}
+
+.digital-timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85%;
+}
+
+.digital-timer-controls {
+  width: 100%;
+}
